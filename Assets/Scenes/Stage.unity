@@ -198,7 +198,7 @@ GameObject:
   - component: {fileID: 486422882}
   - component: {fileID: 486422881}
   - component: {fileID: 486422880}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: DestroyArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -378,11 +378,42 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 602941664307624336, guid: 8e5cf075daa74924f9649bc56f66817c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2763859927887211969, guid: 8e5cf075daa74924f9649bc56f66817c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 3956559796762799189, guid: 8e5cf075daa74924f9649bc56f66817c,
         type: 3}
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 3956559796762799189, guid: 8e5cf075daa74924f9649bc56f66817c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3997147614527111701, guid: 8e5cf075daa74924f9649bc56f66817c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5361533759374519588, guid: 8e5cf075daa74924f9649bc56f66817c,
+        type: 3}
+      propertyPath: canShot
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5361533759374519588, guid: 8e5cf075daa74924f9649bc56f66817c,
+        type: 3}
+      propertyPath: explosion
+      value: 
+      objectReference: {fileID: 6872469811385903725, guid: 48a4e08cc94838a47bfe73bce5cc6ddb,
+        type: 3}
     - target: {fileID: 7060266263735808236, guid: 8e5cf075daa74924f9649bc56f66817c,
         type: 3}
       propertyPath: m_LocalPosition.x
