@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7746191683196490585}
   - component: {fileID: 6281386487821905136}
   - component: {fileID: 1511495411247851788}
+  - component: {fileID: -3116424056748873811}
   m_Layer: 0
   m_Name: Explosion
   m_TagString: Untagged
@@ -113,3 +114,15 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-3116424056748873811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6872469811385903725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b5350d5f613efe4ba5d3c55c58be1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Explosion
