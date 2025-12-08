@@ -226,7 +226,8 @@ MonoBehaviour:
   shotDelay: 0.3
   bullet: {fileID: 5217029159016134792, guid: 27b8fea4644a7f44985a4f9f7e8e6ace, type: 3}
   canShot: 1
-  explosion: {fileID: 0}
+  explosion: {fileID: 6872469811385903725, guid: 48a4e08cc94838a47bfe73bce5cc6ddb,
+    type: 3}
 --- !u!114 &6830942900379893186
 MonoBehaviour:
   m_ObjectHideFlags: 0
