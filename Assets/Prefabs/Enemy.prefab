@@ -223,7 +223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spaceship
   speed: 0.5
-  shotDelay: 0.3
+  shotDelay: 1
   bullet: {fileID: 5217029159016134792, guid: 27b8fea4644a7f44985a4f9f7e8e6ace, type: 3}
   canShot: 1
   explosion: {fileID: 6872469811385903725, guid: 48a4e08cc94838a47bfe73bce5cc6ddb,
@@ -240,6 +240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60d93095664f8334489d973ae4d2e570, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  hp: 10
 --- !u!60 &1442896663736599085
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -307,6 +308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60d93095664f8334489d973ae4d2e570, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  hp: 10
 --- !u!1 &3997147614527111701
 GameObject:
   m_ObjectHideFlags: 0
